@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings -->
+    <string name="player">Player Cheats</string>
+    <string name="vehicle">Vehicle Spawn Cheats</string>
+    <string name="weapon">Weapon Cheats</string>
+    <string name="world">World Cheats</string>
+    <string name="ps3">PS3</string>
+    <string name="xbox">XBox 360</string>
+    <string name="app_name">GTA V Cheats</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Ui Title Strings -->
+    <string name="title_activity_psplayer">PS3 Player Cheats</string>
+    <string name="title_activity_psvehicle">PS3 Vehicle Spawn Cheats</string>
+    <string name="title_activity_psweapons">PS3 Weapon Cheats</string>
+    <string name="title_activity_psworld">PS3 World Cheats</string>
+    <string name="title_activity_xplayer">XBox 360 Player Cheats</string>
+    <string name="title_activity_xvehicle">XBox 360 Vehicle Spawn Cheats</string>
+    <string name="title_activity_xweapons">XBox 360 Weapon Cheats</string>
+    <string name="title_activity_xworld">XBox 360 World Cheats</string>
+
+</resources>

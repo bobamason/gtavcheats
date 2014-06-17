@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- player titles -->
+    <string-array name="player_titles">
+        <item>Max Health and Armor</item>
+        <item>Invincibility</item>
+        <item>Lower Wanted Level</item>
+        <item>Raise Wanted Level</item>
+        <item>Explosive Melee Attacks</item>
+        <item>Recharge Ability</item>
+        <item>Fast Run</item>
+        <item>Fast Swim</item>
+        <item>Super Jump</item>
+        <item>Give Parachute</item>
+        <item>Skyfall</item>
+        <item>Drunk Mode</item>
+        <item>Slow Motion</item>
+        <item>Moon Gravity</item>
+        <item>Change Weather</item>
+    </string-array>
+
+    <!-- weapon titles -->
+    <string-array name="weapons_titles">
+        <item>Weapons/Ammo</item>
+        <item>Explosive Bullets</item>
+        <item>Flaming Bullets</item>
+        <item>Slow Motion Aim</item>
+    </string-array>
+
+    <!-- world titles -->
+    <string-array name="world_titles">
+        <item>Moon Gravity</item>
+        <item>Change Weather</item>
+        <item>Slidey Cars</item>
+    </string-array>
+
+    <!-- vehicle titles -->
+    <string-array name="vehicle_titles">
+        <item>Buzzard Attack Helicopter</item>
+        <item>Comet</item>
+        <item>Sanchez</item>
+        <item>Trashmaster</item>
+        <item>Limo</item>
+        <item>Stunt Plane</item>
+        <item>Caddy</item>
+        <item>Rapid GT</item>
+        <item>Duster</item>
+        <item>PCJ-600</item>
+        <item>BMX Bike</item>
+        <item>Slidey Cars</item>
+    </string-array>
+
+    <!-- all titles -->
+    <string-array name="all_titles">
+        <item>Max Health and Armor</item>
+        <item>Invincibility</item>
+        <item>Lower Wanted Level</item>
+        <item>Weapons/Ammo</item>
+        <item>Explosive Bullets</item>
+        <item>Flaming Bullets</item>
+        <item>Raise Wanted Level</item>
+        <item>Explosive Melee Attacks</item>
+        <item>Recharge Ability</item>
+        <item>Fast Run</item>
+        <item>Fast Swim</item>
+        <item>Super Jump</item>
+        <item>Give Parachute</item>
+        <item>Skyfall</item>
+        <item>Drunk Mode</item>
+        <item>Slow Motion</item>
+        <item>Slow Motion Aim</item>
+        <item>Moon Gravity</item>
+        <item>Change Weather</item>
+        <item>Slidey Cars</item>
+        <item>Buzzard Attack Helicopter</item>
+        <item>Comet</item>
+        <item>Sanchez</item>
+        <item>Trashmaster</item>
+        <item>Limo</item>
+        <item>Stunt Plane</item>
+        <item>Caddy</item>
+        <item>Rapid GT</item>
+        <item>Duster</item>
+        <item>PCJ-600</item>
+        <item>BMX Bike</item>
+    </string-array>
+
+    <!-- ps3 player codes -->
+    <string-array name="ps3_player_codes">
+        <item>CIRCLE, L1, TRIANGLE, R2, X, SQUARE, CIRCLE, RIGHT, SQUARE, L1, L1, L1</item>
+        <item>RIGHT, X, RIGHT, LEFT, RIGHT, R1, RIGHT, LEFT, X, TRIANGLE</item>
+        <item>R1, R1, CIRCLE, R2, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT</item>
+        <item>R1, R1, CIRCLE, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT</item>
+        <item>RIGHT, LEFT, X, TRIANGLE, R1, CIRCLE, CIRCLE, CIRCLE, L2</item>
+        <item>X, X, SQUARE, R1, L1, X, RIGHT, LEFT, X</item>
+        <item>TRIANGLE, LEFT, RIGHT, RIGHT, L2, L1, SQUARE</item>
+        <item>LEFT, LEFT, L1, RIGHT, RIGHT, R2, LEFT, L2, RIGHT</item>
+        <item>LEFT, LEFT, TRIANGLE, TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, R1, R2</item>
+        <item>LEFT, RIGHT, L1, L2, R1, R2, R2, LEFT, LEFT, RIGHT, L1</item>
+        <item>L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT, L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT</item>
+        <item>TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, LEFT</item>
+        <item>TRIANGLE, LEFT, RIGHT, RIGHT, SQUARE, R2, R1</item>
+        <item>LEFT, LEFT, L1, R1, L1, RIGHT, LEFT, L1, LEFT</item>
+        <item>R2, X, L1, L1, L2, L2, L2, SQUARE</item>
+    </string-array>
+
+    <!-- ps3 weapon codes -->
+    <string-array name="ps3_weapon_codes">
+        <item>TRIANGLE, R2, LEFT, L1, X, RIGHT, TRIANGLE, DOWN, SQUARE, L1, L1, L1</item>
+        <item>RIGHT, SQUARE, X, LEFT, R1, R2, LEFT, RIGHT, RIGHT, L1, L1, L1</item>
+        <item>L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, RIGHT, L1, L1</item>
+        <item>SQUARE, L2, R1, TRIANGLE, LEFT, SQUARE, L2, RIGHT, X</item>
+    </string-array>
+
+    <!-- ps3 world codes -->
+    <string-array name="ps3_world_codes">
+        <item>LEFT, LEFT, L1, R1, L1, RIGHT, LEFT, L1, LEFT</item>
+        <item>R2, X, L1, L1, L2, L2, L2, SQUARE</item>
+        <item>TRIANGLE, R1, R1, LEFT, R1, L1, R2, L1</item>
+    </string-array>
+
+    <!-- ps3 vehicle codes -->
+    <string-array name="ps3_vehicle_codes">
+        <item>CIRCLE, CIRCLE, L1, CIRCLE, CIRCLE, CIRCLE, L1, L2, R1, TRIANGLE, CIRCLE, TRIANGLE</item>
+        <item>R1, CIRCLE, R2, RIGHT, L1, L2, X, X, SQUARE, R1</item>
+        <item>CIRCLE, X, L1, CIRCLE, CIRCLE, L1, CIRCLE, R1, R2, L2, L1, L1</item>
+        <item>CIRCLE, R1, CIRCLE, R1, LEFT, LEFT, R1, L1, CIRCLE, RIGHT</item>
+        <item>R2, RIGHT, L2, LEFT, LEFT, R1, L1, CIRCLE, RIGHT</item>
+        <item>CIRCLE, RIGHT, L1, L2, LEFT, R1, L1, L1, LEFT, LEFT, X, TRIANGLE</item>
+        <item>CIRCLE, L1, LEFT, R1, L2, X, R1, L1, CIRCLE, X</item>
+        <item>R2, L1, CIRCLE, RIGHT, L1, R1, RIGHT, LEFT, CIRCLE, R2</item>
+        <item>RIGHT, LEFT, R1, R1, R1, LEFT, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1</item>
+        <item>R1, RIGHT, LEFT, RIGHT, R2, LEFT, RIGHT, SQUARE, RIGHT, L2, L1, L1</item>
+        <item>LEFT, LEFT, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, TRIANGLE, R1, R2</item>
+        <item>TRIANGLE, R1, R1, LEFT, R1, L1, R2, L1</item>
+    </string-array>
+
+    <!-- ps3 all codes -->
+    <string-array name="ps3_all_codes">
+        <item>CIRCLE, L1, TRIANGLE, R2, X, SQUARE, CIRCLE, RIGHT, SQUARE, L1, L1, L1</item>
+        <item>RIGHT, X, RIGHT, LEFT, RIGHT, R1, RIGHT, LEFT, X, TRIANGLE</item>
+        <item>R1, R1, CIRCLE, R2, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT</item>
+        <item>TRIANGLE, R2, LEFT, L1, X, RIGHT, TRIANGLE, DOWN, SQUARE, L1, L1, L1</item>
+        <item>RIGHT, SQUARE, X, LEFT, R1, R2, LEFT, RIGHT, RIGHT, L1, L1, L1</item>
+        <item>L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, RIGHT, L1, L1</item>
+        <item>R1, R1, CIRCLE, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT</item>
+        <item>RIGHT, LEFT, X, TRIANGLE, R1, CIRCLE, CIRCLE, CIRCLE, L2</item>
+        <item>X, X, SQUARE, R1, L1, X, RIGHT, LEFT, X</item>
+        <item>TRIANGLE, LEFT, RIGHT, RIGHT, L2, L1, SQUARE</item>
+        <item>LEFT, LEFT, L1, RIGHT, RIGHT, R2, LEFT, L2, RIGHT</item>
+        <item>LEFT, LEFT, TRIANGLE, TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, R1, R2</item>
+        <item>LEFT, RIGHT, L1, L2, R1, R2, R2, LEFT, LEFT, RIGHT, L1</item>
+        <item>L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT, L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT</item>
+        <item>TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, LEFT</item>
+        <item>TRIANGLE, LEFT, RIGHT, RIGHT, SQUARE, R2, R1</item>
+        <item>SQUARE, L2, R1, TRIANGLE, LEFT, SQUARE, L2, RIGHT, X</item>
+        <item>LEFT, LEFT, L1, R1, L1, RIGHT, LEFT, L1, LEFT</item>
+        <item>R2, X, L1, L1, L2, L2, L2, SQUARE</item>
+        <item>TRIANGLE, R1, R1, LEFT, R1, L1, R2, L1</item>
+        <item>CIRCLE, CIRCLE, L1, CIRCLE, CIRCLE, CIRCLE, L1, L2, R1, TRIANGLE, CIRCLE, TRIANGLE</item>
+        <item>R1, CIRCLE, R2, RIGHT, L1, L2, X, X, SQUARE, R1</item>
+        <item>CIRCLE, X, L1, CIRCLE, CIRCLE, L1, CIRCLE, R1, R2, L2, L1, L1</item>
+        <item>CIRCLE, R1, CIRCLE, R1, LEFT, LEFT, R1, L1, CIRCLE, RIGHT</item>
+        <item>R2, RIGHT, L2, LEFT, LEFT, R1, L1, CIRCLE, RIGHT</item>
+        <item>CIRCLE, RIGHT, L1, L2, LEFT, R1, L1, L1, LEFT, LEFT, X, TRIANGLE</item>
+        <item>CIRCLE, L1, LEFT, R1, L2, X, R1, L1, CIRCLE, X</item>
+        <item>R2, L1, CIRCLE, RIGHT, L1, R1, RIGHT, LEFT, CIRCLE, R2</item>
+        <item>RIGHT, LEFT, R1, R1, R1, LEFT, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1</item>
+        <item>R1, RIGHT, LEFT, RIGHT, R2, LEFT, RIGHT, SQUARE, RIGHT, L2, L1, L1</item>
+        <item>LEFT, LEFT, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, TRIANGLE, R1, R2</item>
+    </string-array>
+
+    <!-- xbox player codes -->
+    <string-array name="xbox_player_codes">
+        <item>B, LB, Y, RT, A, X, B, RIGHT, X, LB, LB, LB</item>
+        <item>RIGHT, A, RIGHT, LEFT, RIGHT, RB, RIGHT, LEFT, A, Y</item>
+        <item>RB, RB, B, RT, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT</item>
+        <item>RB, RB, B, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT</item>
+        <item>RIGHT, LEFT, A, Y, RB, B, B, B, LT</item>
+        <item>A, A, X, RB, LB, A, RIGHT, LEFT, A</item>
+        <item>Y, LEFT, RIGHT, RIGHT, LT, LB, X</item>
+        <item>LEFT, LEFT, LB, RIGHT, RIGHT, RT, LEFT, LT, RIGHT</item>
+        <item>LEFT, LEFT, Y, Y, RIGHT, RIGHT, LEFT, RIGHT, X, RB, RT</item>
+        <item>LEFT, RIGHT, LB, LT, RB, RT, RT, LEFT, LEFT, RIGHT, LB</item>
+        <item>LB, LT, RB, RT, LEFT, RIGHT, LEFT, RIGHT, LB, LT, RB, RT, LEFT, RIGHT, LEFT, RIGHT</item>
+        <item>Y, RIGHT, RIGHT, LEFT, RIGHT, X, B, LEFT</item>
+        <item>Y, LEFT, RIGHT, RIGHT, X, RT, RB</item>
+        <item>LEFT, LEFT, LB, RB, LB, RIGHT, LEFT, LB, LEFT</item>
+        <item>RT, A, LB, LB, LT, LT, LT, X</item>
+    </string-array>
+
+    <!-- xbox weapon codes -->
+    <string-array name="xbox_weapon_codes">
+        <item>Y, RT, LEFT, LB, A, RIGHT, Y, DOWN, X, LB, LB, LB</item>
+        <item>RIGHT, X, A, LEFT, RB, RT, LEFT, RIGHT, RIGHT, LB, LB, LB</item>
+        <item>LB, RB, X, RB, LEFT, RT, RB, LEFT, X, RIGHT, LB, LB</item>
+        <item>X, LT, RB, Y, LEFT, X, LT, RIGHT, A</item>
+    </string-array>
+
+    <!-- xbox world codes -->
+    <string-array name="xbox_world_codes">
+        <item>LEFT, LEFT, LB, RB, LB, RIGHT, LEFT, LB, LEFT</item>
+        <item>RT, A, LB, LB, LT, LT, LT, X</item>
+        <item>Y, RB, RB, LEFT, RB, LB, RT, LB</item>
+    </string-array>
+
+    <!-- xbox vehicle codes -->
+    <string-array name="xbox_vehicle_codes">
+        <item>B, B, LB, B, B, B, LB, LT, RB, Y, B, Y</item>
+        <item>RB, B, RT, RIGHT, LB, LT, A, A, X, RB</item>
+        <item>B, A, LB, B, B, LB, B, RB, RT, LT, LB, LB</item>
+        <item>B, RB, B, RB, LEFT, LEFT, RB, LB, B, RIGHT</item>
+        <item>RT, RIGHT, LT, LEFT, LEFT, RB, LB, B, RIGHT</item>
+        <item>B, RIGHT, LB, LT, LEFT, RB, LB, LB, LEFT, LEFT, A, Y</item>
+        <item>B, LB, LEFT, RB, LT, A, RB, LB, B, A</item>
+        <item>RT, LB, B, RIGHT, LB, RB, RIGHT, LEFT, B, RT</item>
+        <item>RIGHT, LEFT, RB, RB, RB, LEFT, Y, Y, A, B, LB, LB</item>
+        <item>RB, RIGHT, LEFT, RIGHT, RT, LEFT, RIGHT, X, RIGHT, LT, LB, LB</item>
+        <item>LEFT, LEFT, RIGHT, RIGHT, LEFT, RIGHT, X, B, Y, RB, RT</item>
+        <item>Y, RB, RB, LEFT, RB, LB, RT, LB</item>
+    </string-array>
+
+    <!-- xbox all codes -->
+    <string-array name="xbox_all_codes">
+        <item>B, LB, Y, RT, A, X, B, RIGHT, X, LB, LB, LB</item>
+        <item>RIGHT, A, RIGHT, LEFT, RIGHT, RB, RIGHT, LEFT, A, Y</item>
+        <item>RB, RB, B, RT, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT</item>
+        <item>Y, RT, LEFT, LB, A, RIGHT, Y, DOWN, X, LB, LB, LB</item>
+        <item>RIGHT, X, A, LEFT, RB, RT, LEFT, RIGHT, RIGHT, LB, LB, LB</item>
+        <item>LB, RB, X, RB, LEFT, RT, RB, LEFT, X, RIGHT, LB, LB</item>
+        <item>RB, RB, B, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT</item>
+        <item>RIGHT, LEFT, A, Y, RB, B, B, B, LT</item>
+        <item>A, A, X, RB, LB, A, RIGHT, LEFT, A</item>
+        <item>Y, LEFT, RIGHT, RIGHT, LT, LB, X</item>
+        <item>LEFT, LEFT, LB, RIGHT, RIGHT, RT, LEFT, LT, RIGHT</item>
+        <item>LEFT, LEFT, Y, Y, RIGHT, RIGHT, LEFT, RIGHT, X, RB, RT</item>
+        <item>LEFT, RIGHT, LB, LT, RB, RT, RT, LEFT, LEFT, RIGHT, LB</item>
+        <item>LB, LT, RB, RT, LEFT, RIGHT, LEFT, RIGHT, LB, LT, RB, RT, LEFT, RIGHT, LEFT, RIGHT</item>
+        <item>Y, RIGHT, RIGHT, LEFT, RIGHT, X, B, LEFT</item>
+        <item>Y, LEFT, RIGHT, RIGHT, X, RT, RB</item>
+        <item>X, LT, RB, Y, LEFT, X, LT, RIGHT, A</item>
+        <item>LEFT, LEFT, LB, RB, LB, RIGHT, LEFT, LB, LEFT</item>
+        <item>RT, A, LB, LB, LT, LT, LT, X</item>
+        <item>Y, RB, RB, LEFT, RB, LB, RT, LB</item>
+        <item>B, B, LB, B, B, B, LB, LT, RB, Y, B, Y</item>
+        <item>RB, B, RT, RIGHT, LB, LT, A, A, X, RB</item>
+        <item>B, A, LB, B, B, LB, B, RB, RT, LT, LB, LB</item>
+        <item>B, RB, B, RB, LEFT, LEFT, RB, LB, B, RIGHT</item>
+        <item>RT, RIGHT, LT, LEFT, LEFT, RB, LB, B, RIGHT</item>
+        <item>B, RIGHT, LB, LT, LEFT, RB, LB, LB, LEFT, LEFT, A, Y</item>
+        <item>B, LB, LEFT, RB, LT, A, RB, LB, B, A</item>
+        <item>RT, LB, B, RIGHT, LB, RB, RIGHT, LEFT, B, RT</item>
+        <item>RIGHT, LEFT, RB, RB, RB, LEFT, Y, Y, A, B, LB, LB</item>
+        <item>RB, RIGHT, LEFT, RIGHT, RT, LEFT, RIGHT, X, RIGHT, LT, LB, LB</item>
+        <item>LEFT, LEFT, RIGHT, RIGHT, LEFT, RIGHT, X, B, Y, RB, RT</item>
+    </string-array>
+
+</resources>

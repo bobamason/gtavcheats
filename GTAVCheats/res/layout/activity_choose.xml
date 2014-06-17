@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <!-- player -->
+
+
+    <!-- <com.google.ads.AdView -->
+    <!-- xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" -->
+    <!-- android:id="@+id/adView" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- ads:adSize="SMART_BANNER" -->
+    <!-- ads:adUnitId="ca-app-pub-4843113853009640/4621669018" /> -->
+
+
+    <!-- world -->
+
+
+    <!-- <com.google.ads.AdView -->
+    <!-- xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" -->
+    <!-- android:id="@+id/adView" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- ads:adSize="SMART_BANNER" -->
+    <!-- ads:adUnitId="ca-app-pub-4843113853009640/7372352216" /> -->
+
+
+    <!-- weapons -->
+
+
+    <!-- <com.google.ads.AdView -->
+    <!-- xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" -->
+    <!-- android:id="@+id/adView" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- ads:adSize="SMART_BANNER" -->
+    <!-- ads:adUnitId="ca-app-pub-4843113853009640/5895619014" /> -->
+
+
+    <!-- vehicles -->
+
+
+    <!-- <com.google.ads.AdView -->
+    <!-- xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" -->
+    <!-- android:id="@+id/adView" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- ads:adSize="SMART_BANNER" -->
+    <!-- ads:adUnitId=" ca-app-pub-4843113853009640/6098402216" /> -->
+
+</RelativeLayout>

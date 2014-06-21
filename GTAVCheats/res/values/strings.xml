@@ -10,6 +10,8 @@
     <string name="xbox">XBox 360</string>
     <string name="app_name">GTA V Cheats</string>
     <string name="action_settings">Settings</string>
+	<string name="drawer_closed">Navigation Drawer Closed</string>
+	<string name="drawer_opened">Navigation Drawer Opened</string>
 
     <!-- Ui Title Strings -->
     <string name="title_activity_psplayer">PS3 Player Cheats</string>

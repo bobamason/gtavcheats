@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="title_text">#ffffffff</color>
-    <color name="code_text">#ffffffff</color>
-    
-    <color name="code_bg1">#a0000000</color>
-    <color name="code_bg2">#a03a3a3a</color>
+    <color name="title_text">#FFFFFF</color>
+    <color name="code_text">#FFFFFF</color>
+    <color name="background_color">#2A2723</color>
+    <color name="code_bg1">#AA1D1D1D</color>
+	<color name="gradient_end">#3A352E</color>
+	<color name="gradient_start">#1C1913</color>
+	<color name="ps3_text_color">#6300FF</color>
+	<color name="xbox_text_color">#27D100</color>
+	
 </resources>

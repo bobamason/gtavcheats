@@ -1,33 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+<android.support.v4.widget.DrawerLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:id="@+id/mainDrawerLayout1">
+	
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/fragment_holder"/>
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="280dp"
+		android:layout_height="match_parent"
+		android:layout_gravity="start"
+		android:background="@color/background_color">
+		
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/fav_button"
+			android:background="@drawable/favorite_button"
+			android:text="Favorites"
+			android:gravity="left|center_vertical"
+			android:paddingLeft="8dp"
+			android:textColor="@color/title_text"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+		
+		<TextView
+			android:gravity="center"
+			android:text="PS3"
+			android:textSize="38sp"
+			android:textColor="@color/title_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/main_bg"/>
 
-    <!-- <com.google.ads.AdView -->
-    <!-- xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" -->
-    <!-- android:id="@+id/adView" -->
-    <!-- android:layout_width="match_parent" -->
-    <!-- android:layout_height="wrap_content" -->
-    <!-- android:layout_alignParentBottom="true" -->
-    <!-- ads:adSize="SMART_BANNER" -->
-    <!-- ads:adUnitId="ca-app-pub-4843113853009640/4621669018" /> -->
+		<ListView
+			android:id="@+id/drawerListViewPS3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:choiceMode="singleChoice"/>
+		<TextView
+			android:gravity="center"
+			android:text="XBox 360"
+			android:textSize="38sp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/title_text"
+			android:background="@drawable/main_bg"/>
 
-    <android.support.v4.view.ViewPager
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/pager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/adView"
-        android:layout_alignParentTop="true" >
+		<ListView
+			android:id="@+id/drawerListViewXbox"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:choiceMode="singleChoice"/>
+		
+	</LinearLayout>
+</android.support.v4.widget.DrawerLayout>
 
-        <android.support.v4.view.PagerTitleStrip
-            android:id="@+id/pager_title_strip"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top" />
-
-        <ViewPager>
-        </ViewPager>
-    </android.support.v4.view.ViewPager>
-
-</RelativeLayout>

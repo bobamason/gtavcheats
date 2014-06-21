@@ -1,63 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_height="wrap_content"
-	android:layout_width="wrap_content"
-	android:background="@drawable/dialog_bg"
-	android:orientation="vertical"
-	android:gravity="center">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
 
-	<TextView
-		android:layout_height="wrap_content"
-		android:text="Title"
-		android:textAppearance="?android:attr/textAppearanceLarge"
-		android:layout_width="wrap_content"
-		android:id="@+id/dialog_title"
-		android:textColor="@color/title_text"
-		android:layout_margin="8dp"
-		android:layout_gravity="left"/>
-	<ImageView
-		android:layout_height="wrap_content"
-		android:src="@drawable/line"
-		android:layout_width="match_parent"
-		android:layout_marginLeft="6dp"
-		android:layout_marginRight="6dp"/>
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="8dp"
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/title_text" />
 
-	<GridLayout
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:columnCount="5"
-		android:id="@+id/dialog_grid"
-		android:gravity="bottom"
-		android:padding="6dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/line" />
 
-	</GridLayout>
+    <android.support.v7.widget.GridLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/dialog_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:padding="6dp"
+        app:columnCount="5" >
+    </android.support.v7.widget.GridLayout>
 
-	<CheckBox
-		android:layout_height="wrap_content"
-		android:text="Add To Favorites"
-		android:layout_width="wrap_content"
-		android:id="@+id/fav_checkbox"
-		android:layout_margin="8dp"
-		android:textColor="@color/title_text"
-		android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <CheckBox
+        android:id="@+id/fav_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Add To Favorites"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/title_text" />
 
-	<ImageView
-		android:layout_height="wrap_content"
-		android:src="@drawable/line"
-		android:layout_width="match_parent"
-		android:layout_marginLeft="6dp"
-		android:layout_marginRight="6dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/line" />
 
-	<Button
-		android:layout_height="wrap_content"
-		android:text="Close"
-		android:layout_width="match_parent"
-		android:textAppearance="?android:attr/textAppearanceLarge"
-		android:id="@+id/dialog_ok_button"
-		android:background="@drawable/button"
-		android:textColor="@color/title_text"
-		android:padding="10dp"/>
+    <Button
+        android:id="@+id/dialog_ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:padding="10dp"
+        android:text="Close"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/title_text" />
 
 </LinearLayout>
-

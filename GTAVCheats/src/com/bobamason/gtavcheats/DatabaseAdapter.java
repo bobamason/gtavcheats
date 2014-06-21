@@ -1,7 +1,5 @@
 package com.bobamason.gtavcheats;
 
-import java.util.ArrayList;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -20,11 +18,12 @@ public class DatabaseAdapter {
 		ctx = context;
 		helper = new SQLHelper(ctx);
 	}
-	
-	public boolean saved(String cheatCode){
+
+	public boolean saved(String cheatCode) {
 		SQLiteDatabase db = helper.getReadableDatabase();
-		Cursor c = db.query(SQLHelper.TABLE_NAME, new String[]{SQLHelper.UID},
-							SQLHelper.COLUMN_CHEAT + " = '" + cheatCode + "'", null, null, null, null);
+		Cursor c = db.query(SQLHelper.TABLE_NAME,
+				new String[] { SQLHelper.UID }, SQLHelper.COLUMN_CHEAT + " = '"
+						+ cheatCode + "'", null, null, null, null);
 		boolean b = c.moveToFirst();
 		c.close();
 		return b;
@@ -44,8 +43,8 @@ public class DatabaseAdapter {
 
 	public void deleteEntry(String cheatCode) {
 		SQLiteDatabase db = helper.getWritableDatabase();
-		db.delete(SQLHelper.TABLE_NAME,
-				  SQLHelper.COLUMN_CHEAT + " = '" + cheatCode + "'", null);
+		db.delete(SQLHelper.TABLE_NAME, SQLHelper.COLUMN_CHEAT + " = '"
+				+ cheatCode + "'", null);
 		db.close();
 	}
 
@@ -54,7 +53,7 @@ public class DatabaseAdapter {
 		Cursor cursor = null;
 		try {
 			cursor = db.query(SQLHelper.TABLE_NAME, null, null, null, null,
-							  null, SQLHelper.COLUMN_TITLE + " ASC");
+					null, SQLHelper.COLUMN_TITLE + " ASC");
 			Log.e("Cursor", "cursor returned");
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -82,16 +81,15 @@ public class DatabaseAdapter {
 		// private Context context;
 
 		private static final String CREATE_TABLE = "CREATE TABLE IF NOT EXISTS "
-		+ TABLE_NAME
-		+ " ("
-		+ UID
-		+ " INTEGER PRIMARY KEY AUTOINCREMENT, "
-		+ COLUMN_TITLE
-		+ " VARCHAR(255), "
-		+ COLUMN_CONSOLE
-		+ " INTEGER, "
-		+ COLUMN_CHEAT
-		+ " VARCHAR(255));";
+				+ TABLE_NAME
+				+ " ("
+				+ UID
+				+ " INTEGER PRIMARY KEY AUTOINCREMENT, "
+				+ COLUMN_TITLE
+				+ " VARCHAR(255), "
+				+ COLUMN_CONSOLE
+				+ " INTEGER, "
+				+ COLUMN_CHEAT + " VARCHAR(255));";
 
 		public SQLHelper(Context context) {
 			super(context, DB_NAME, null, DB_VERSION);

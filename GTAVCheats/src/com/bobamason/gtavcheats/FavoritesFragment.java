@@ -45,7 +45,7 @@ public class FavoritesFragment extends Fragment implements
 		activity = getActivity();
 		dbAdapter = ((MainActivity) activity).getDbAdapter();
 		((ImageView) activity.findViewById(R.id.bg_imageview))
-				.setImageResource(R.drawable.world_bg);
+				.setImageResource(R.drawable.favorites_bg);
 		listView = (ListView) getActivity().findViewById(R.id.listView);
 		GetAllTask task = new GetAllTask();
 		task.execute(true);

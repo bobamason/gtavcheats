@@ -9,9 +9,15 @@
                 android:endColor="@color/gradient_end"
                 android:startColor="@color/gradient_start"
                 android:type="linear" />
+
+            <padding
+                android:bottom="4dp"
+                android:left="8dp"
+                android:right="8dp"
+                android:top="4dp" />
         </shape>
     </item>
-    <item>
+    <item android:right="16dp">
         <bitmap
             android:gravity="right"
             android:src="@drawable/ic_action_expand" />

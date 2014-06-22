@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             ads:adSize="SMART_BANNER"
-            ads:adUnitId="ca-app-pub-4843113853009640/4621669018" />
+            ads:adUnitId="ca-app-pub-4843113853009640/4208009815" />
 
         <FrameLayout
             android:id="@+id/fragment_holder"
@@ -29,6 +29,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="@color/background_color"
+        android:clickable="true"
         android:orientation="vertical" >
 
         <Button
@@ -46,11 +47,13 @@
             android:id="@+id/ps3_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
             android:background="@drawable/expand_button"
             android:gravity="left|center_vertical"
             android:text="PS3"
-            android:textColor="@color/title_text"
-            android:textSize="38sp" />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/title_text" />
 
         <ListView
             android:id="@+id/drawerListViewPS3"
@@ -62,11 +65,13 @@
             android:id="@+id/xbox_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
             android:background="@drawable/expand_button"
             android:gravity="left|center_vertical"
             android:text="XBox 360"
-            android:textColor="@color/title_text"
-            android:textSize="38sp" />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/title_text" />
 
         <ListView
             android:id="@+id/drawerListViewXbox"
